@@ -1,0 +1,61 @@
+// {
+//   "compilerOptions": {
+//     "outDir": "./dist/",
+//     "sourceMap": true,
+//     "noImplicitAny": true,
+//     "module": "esnext",
+//     "target": "es5",
+//     "jsx": "react"
+//   },
+//   "include": ["src"]
+// }
+
+// {
+//   "compilerOptions": {
+//     "module": "esnext",
+//     "target": "es5",
+//     "lib": ["dom", "dom.iterable", "esnext"],
+//     "sourceMap": true,
+//     "moduleResolution": "node",
+//     "jsx": "react",
+//     "baseUrl": "./",
+//     "paths": {
+//       "*": ["src/*"]
+//     }
+//   },
+//   "include": ["src"]
+// }
+
+// {
+//   "compilerOptions": {
+//     "outDir": "./dist/",
+//     "module": "esnext",
+//     "target": "es2017",
+//     "lib": ["dom", "dom.iterable", "esnext"],
+//     "sourceMap": true,
+//     "moduleResolution": "node",
+//     "jsx": "react",
+//     "baseUrl": "./",
+//     "paths": {
+//       "*": ["src/*"]
+//     }
+//   },
+//   "include": ["src"]
+// }
+
+{
+  "compilerOptions": {
+    "module": "esnext",
+    "target": "es5",
+    "lib": ["dom", "dom.iterable", "esnext"],
+    "sourceMap": true,
+    "moduleResolution": "node",
+    "jsx": "react",
+    "baseUrl": "./",
+    "paths": {
+      "*": ["src/*"]
+    },
+    "types": []
+  },
+  "exclude": ["node_modules"]
+}
